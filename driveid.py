@@ -29,9 +29,9 @@ num = int(input("    How Many Drive/Folder You Likes To Add : "))
 count = 1
 while count <= num :
     print(f"\n        > DRIVE - {count}\n")
-    name  = input("    GOD's DRIVE      ")
-    id    = input("    root                   ")
-    index = input(" https://index.godtruth.workers.dev/0:    ")
+    name  = input("    Enter Drive NAME  (anything)     : ")
+    id    = input("    Enter Drive ID                   : ")
+    index = input("    Enter Drive INDEX URL (optional) : ")
     if not name or not id:
         print("\n\n        ERROR : Dont leave the name/id without filling.")
         exit(1) 
